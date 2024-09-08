@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #cccccc;
+}
+.container{
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    height: 100vh;
+}
+.container .flex{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.imagem img{
+    width: 350px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.imagem .texto .redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.texto{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.texto h1{
+    display: flex;
+    color: #fff;
+}
+.flex .texto .redes{
+    margin: 30px;
+    padding: 20px;
+}
+.redes{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   gap: 20px;
+   cursor: pointer;
+    font-size: 30px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fa-instagram{
+    color: crimson;
+}
+.fa-youtube{
+    color: red;
+}
+.spot{
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+h2{
+    color: #fff;
+    border-bottom: 3px solid red;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.spot iframe{
+    margin: 0 auto;
+    padding: 20px;
+    height: 70vh;
+   
+}
+
+@media screen and (max-width: 1020px){
+    .flex{
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .imagem{
+        margin-top: 250px;
+    }
+    .texto{
+        margin-top: -4px;
+        text-align: center;
+    }
+    .texto h1{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .spot{
+        margin: 0 auto;
+        padding-top: 70px;
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+      
+    }
+    .redes{
+        align-items: center;
+        width: 300px;
+        margin-left: 30px;
+        justify-content: center;
+        
+    }
+}
